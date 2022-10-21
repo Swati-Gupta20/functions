@@ -55,6 +55,9 @@ def complete():
             a=sol(i)
             if a==True:
                 print("Congrats! correct answer")
+            elif a=='quit':
+                print("you quit the game")
+                break                
             else:
                 print("wrong answer")
                 break
